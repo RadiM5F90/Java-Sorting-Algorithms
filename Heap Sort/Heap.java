@@ -1,3 +1,20 @@
+
+/*
+* Time Analysis
+* heapify() runs in O(log n) in the worst case
+* buildHeap() runs in O(n) 
+* extractRoot() runs in O(log n) per extraction
+* The total time xomplexity is O(n log n)
+*/
+
+/* 
+ * Possible Applications
+ * When we want to know the task that carries the highest priority given a large number of things to do
+ * Interval scheduling, when we have a lists of certain task with start and finish times and we want to do as many tasks as possible
+ * Sorting a list of elements that needs and efficient sorting algorithm
+*/
+
+
 public class Heap {
     int arr[];
     int size;  // size of the heap
