@@ -77,3 +77,6 @@ public class Heap {
         return max; // return the max element
     }
 }
+
+// This is a min heap, it sorts the elements in a decreasing orderd
+// To sort the elements in an increasing order, use a max heap
